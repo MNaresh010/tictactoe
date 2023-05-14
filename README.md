@@ -7,12 +7,6 @@ The checkTie() function checks if the game has resulted in a tie. The checkWin()
 Finally, there is a loop that runs the game while gameRunner is True. It calls the printBoard() function to print the current state of the game board, calls playerinput() to get the player's move, checks for a winner with checkWin(), checks for a tie with checkTie(), and switches the current player with switchPlayer().
 Overall, this code allows two players to play Tic Tac Toe against each other in the console. It keeps track of the state of the game, checks for wins and ties, and allows players to take turns placing their symbol on the board.
 
-
-
-
-
-
-
    +--------+       +-------------------+
    | Start  |------>| printBoard(board)  |
    +--------+       +-------------------+
